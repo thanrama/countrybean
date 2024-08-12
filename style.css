@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    background-color: #fcfcfc;
+}
+.head{
+    width: 100%;
+}
+.head-1{
+    background-color: #bf6a57;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+}
+.head-2{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.head-2 .fa-magnifying-glass{
+    padding-left: 150px;
+    font-size: 20px;
+
+}
+.head-2 .fa-user{
+    font-size: 20px;
+    padding-left: 430px;
+}
+
+.cb-img{ 
+    width: 240px;
+    padding-left: 450px;
+}
+
+.cart-img{
+    width: 25px;
+    height: 25px;
+    padding-left: 20px;
+    padding-top: -5px;
+    
+}
+.head-3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 440px;
+}
+.head-3 .fa-angle-down{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.arow{
+    width: 40px;
+}
+.p-shop{
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
+.p-personal{
+    padding-left: 20px;
+}
+.p-festive{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 140px;
+}
+.home-p{
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
+.container-1 .fa-angle-right{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-2{
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.h1-heading{
+    font-weight: 400;
+    font-size: 50px;
+    font-family: Lato, sans-seri; 
+}
+.p-heading{
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.body-desk{
+    display: flex;
+    flex-direction: row;
+    padding-left: 140px;
+}
+.body-desk .fa-angle-down{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.desk-2{
+    padding-left: 20px;
+}
+.desk-4{
+    padding-left: 630px;
+}
+.desk-5{
+    padding-left: 20px;
+    padding-right: 80px;
+}
+
+.body-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-left: 140px;
+    padding-right: 140px;
+    
+}
+.item{
+    width: 300px;
+    display: block;
+}
+.description{
+    text-align: center;
+    display: inline-block;
+}
+.p-desc{
+    font-size: 20px;
+}
+.price{
+    font-size: 20px;
+    font-weight: 200;
+}
+.cart-btn{
+    width: 85%;
+    height: 30px;
+    background-color: #bf6a57;
+    border: none;
+    color: white;
+}
+.body-img{
+    width: 100%;
+}
+.next-page{
+    display: flex;
+    flex-direction: row;
+    padding-left: 720px;
+}
+.next-page .fa-angle-right{
+    font-size: 12px;
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.p-next-1{
+    padding-top: 40px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+.p-next-2{
+    padding-top: 40px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.img-next{
+    padding-top: 51px;
+    width: 40px;
+    height: 40px;
+}
+.content-narrow{
+    padding-top: 60px;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content .fa-angle-down{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content-img{
+    width: 40px;
+    height: 40px;
+}
+.footer{
+    background-color: #bf6a57;
+    
+    
+}
+.footer-1{
+    display: flex;
+    flex-direction: row;
+}
+.footer-left{
+    padding-top: 60px;
+    padding-left: 140px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-lebel{
+    color: white;
+    font-size: 18px;
+}
+.footer-ph{
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    background-color: #bf6a57;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    border-width: 2px;
+    margin-bottom: 25px;
+}
+.footer-btn{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #bf6a57;
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer-right{
+    width: 60%;
+    padding-top: 100px;
+    
+}
+.fa-twitter{
+    font-size: 20px;
+    color: white;
+    padding-left: 450px;
+}
+.fa-square-facebook,
+.fa-instagram,
+.fa-youtube{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.footer-h3{
+    color: white;
+    padding-left: 700px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer-2-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fcfcfc;
+}
+.footer-2-block p{
+    padding-right: 20px;
+}
+.footer-3{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+
